@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+
+	int linha;
+	int espaco;
+	int asteristico = 1;
+	printf("digite um numero de linhas que voce deseja:\n");
+	scanf("%d", &linha);
+
+	for(int i=1; i<=linha; i++) {
+		printf("\n");
+		for(int x=1; x<= linha-i; x++) {
+			printf(" ");
+		}
+
+		for(int j=1; j<=asteristico; j++) {
+			printf("*");
+		}
+		asteristico = asteristico+2;
+	}
+}
