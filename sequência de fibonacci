@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int anterior =0;
+    int proximo;
+    int atual =1;
+    
+printf("digite o número da sequência de fibonacci \n");
+scanf("%d", &anterior);
+
+    while(anterior<=55){
+    printf("valor:%d \n", anterior);
+    proximo=anterior+atual;
+    anterior=atual;
+    atual=proximo;
+    
+    
+}
+    
+}
